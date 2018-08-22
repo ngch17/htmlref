@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: grid;
+    border-style: dotted;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 10px;
+    overflow: hidden;
+    max-width: 60%;
+
+    margin: auto;
+    
+}
+
+.left-container {
+    border-style: dashed;
+    border-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1vw;
+    
+}
+
+.right-container {
+    border-style: dashed;
+    border-color: red;
+    
+}
+
+.col1-left {
+    border-color: blueviolet;
+    border-style: solid;
+    margin: auto;
+}
+
+.col1-right {
+    border-color: orangered;
+    border-style: solid;
+}

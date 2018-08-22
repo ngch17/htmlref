@@ -1,0 +1,50 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Form.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" 
+                     id="name" 
+                     name="user_name"
+                     placeholder="Your Name"
+                     required>
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" 
+                     id="mail" 
+                     name="user_mail"
+                     placeholder="abc@abc.com"
+                     required>
+            </div>
+
+            <div>    
+                <label for="phone">Tel:</label>
+                <input type="tel" id="tel" name="tel">
+            
+            </div>
+
+
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+                    <button type="submit">Send your message</button>
+            </div>
+          </form>
+
+
+
+</body>
+</html>
